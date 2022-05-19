@@ -1,0 +1,102 @@
+.App {
+  // text-align: center;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Sec-pad {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.Sec-pad-2 {
+  padding-top: 125px;
+  padding-bottom: 50px;
+}
+
+.Hero-2{
+  background-image: url(./images/Hero-2.png);
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-size: cover;
+ }
+
+.Hero{
+ background-image: url(./images/Hero.gif);
+ padding-top: 150px;
+ padding-bottom: 150px;
+ background-size: cover;
+}
+
+.SectionMain{
+  background-image: url(./images/SectionMain.png);
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-size: cover;
+ }
+
+ .moblie-img {
+  
+ }
+
+ .Main-font {
+  font-family: "Numans";
+ }
+
+ .Minor-font {
+
+ }
+
+ .logo-font{
+   font-size: 2rem;
+   text-decoration: none;
+ }
+
+
+
+
+
+
+$theme-colors: (
+  "primary"   : #353B44 ,
+  "secondary" : #076a4c,
+  "info"    : #85ada0 ,
+  "success" : #eea290 ,
+  "muted"   : #f2f5f4,
+  "white" : #fff,
+  "dark"  : #000,
+);
+
+@import "~bootstrap/scss/bootstrap.scss"
